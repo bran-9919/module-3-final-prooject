@@ -33,9 +33,41 @@
             <a href="#" class="nav__link">Login</a>
             <a href="#" class="nav__link nav__link--primary">Sign Up</a>
           </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fa-solid fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Blog</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Pricing</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="nav__link--primary" onclick="closeMenu()">Sign Up</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </section>
+
+    <!-- HEADER -->
 
     <section id="header">
       <header>
@@ -542,22 +574,29 @@
             <div class="footer__copyright">
               &copy; 2018 Treact Inc. All Rights Reserved.
             </div>
-            <div class="footer__socials" role="group" aria-label="Social media links">
+            <div
+              class="footer__socials"
+              role="group"
+              aria-label="Social media links"
+            >
               <a
                 href="https://x.com/"
                 class="footer__social-link"
                 aria-label="X"
-              ><i class="fa-brands fa-twitter"></i></a>
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
               <a
                 href="https://www.facebook.com/"
                 class="footer__social-link"
                 aria-label="Facebook"
-              ><i class="fa-brands fa-facebook-f"></i></a>
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
               <a
                 href="https://www.youtube.com/"
                 class="footer__social-link"
                 aria-label="YouTube"
-              ><i class="fa-brands fa-youtube"></i></a>
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
             </div>
           </div>
         </div>
